@@ -80,10 +80,6 @@ python "password generator.py"
 python "To Do list.py"
 ```
 
----
-
-## 📸 Screenshots
-*(Add screenshots here for each app for better presentation)*
 
 ---
 
