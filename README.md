@@ -1,88 +1,136 @@
-# 🖥 Python Utility Apps Collection
+# 🧰 Python Utility App Collection
 
-This repository contains **three feature-rich Tkinter desktop applications** built with Python:
-
-1. **Smart Calculator** 🧮  
-2. **Password Generator** 🔐  
-3. **To-Do List with Timer** 📝  
-
-All are beginner-friendly yet practical tools that can be used daily.
+This repository contains a collection of beginner-to-intermediate level Python projects, including desktop utilities and games. The projects are built using **Tkinter**, **Pygame**, and core Python, offering practical learning experiences as well as fun mini tools.
 
 ---
 
-## 📂 Project List
+## 📁 Projects Included
 
-### 1️⃣ Smart Calculator (`calculator.py`)
-A multifunction calculator that not only performs arithmetic but also offers:
-- Standard math operations (+, -, ×, ÷, %, exponentiation)
-- Random **Math Facts** for fun learning
-- **Currency Converter** (USD, EUR, GBP, INR)
-- **Age Calculator** based on date of birth
+### 1️⃣ Smart Calculator (`calculator.py`) 🧮
 
-**How to use:**
-- Run `calculator.py`  
-- Enter an expression and press `=`  
-- Click **Fact** for a random math trivia  
-- Use the currency converter dropdowns and "Convert" button  
-- Enter your date of birth to calculate your exact age
+A feature-rich graphical calculator with multiple tools bundled in:
 
----
+- Basic arithmetic operations: `+`, `-`, `*`, `/`, `%`, `**`
+- Random math facts generator for fun
+- Currency Converter (USD, EUR, GBP, INR)
+- Age Calculator (enter Date of Birth)
 
-### 2️⃣ Password Generator (`password generator.py`)
-A secure password generator with real-time **strength analysis** and **crack time estimation**.
-- Customizable character sets: lowercase, uppercase, digits, symbols
-- Password length: 4–64 characters
-- Copy password to clipboard
-- Save passwords with optional notes
-- Strength rating (Very Weak → Very Strong)
-- Estimated crack time based on complexity
+**How to Run:**
 
-**How to use:**
-- Run `password generator.py`  
-- Select desired character options and length  
-- Click **Generate**  
-- Copy or save the password with a note
-
----
-
-### 3️⃣ To-Do List with Timer (`To Do list.py`)
-A task management tool with integrated countdown timers.
-- Add, check off, or delete tasks
-- Set individual task timers
-- Persistent storage in `tasks.json` (saves tasks automatically)
-- Visual timer countdown per task
-
-**How to use:**
-- Run `To Do list.py`  
-- Add tasks in the input field  
-- Set hours, minutes, and seconds before clicking **⏱ Set** for a timer  
-- Delete tasks with ❌ or mark as done with the checkbox
-
----
-
-## 🛠 Installation & Requirements
-
-**Requirements:**
-- Python 3.8+
-- Tkinter (comes pre-installed with Python)
-
-**Setup:**
 ```bash
-# Clone the repository
+python "calculator.py"
+2️⃣ Password Generator (password generator.py) 🔐
+Create strong and secure passwords with visual feedback:
+
+Customize character sets: lowercase, uppercase, numbers, symbols
+
+Adjustable password length (4 to 64 characters)
+
+Password strength meter and estimated crack time
+
+Copy to clipboard and save with optional notes
+
+How to Run:
+
+bash
+Copy code
+python "password generator.py"
+3️⃣ To-Do List with Timer (To Do list.py) 📝
+A simple task manager app with integrated timers for each task:
+
+Add tasks with optional timers
+
+Mark tasks as done or delete them
+
+Timer countdown shown per task
+
+Data saved in tasks.json automatically
+
+How to Run:
+
+bash
+Copy code
+python "To Do list.py"
+4️⃣ Expense Tracker (CLI App) (expense_tracker.py) 💰
+A command-line tool to manage your daily expenses:
+
+Add new expenses with amount, category, description, and date
+
+View all expenses or filter by category/month
+
+Edit or delete any entry
+
+Monthly reports with category-wise summaries
+
+Stores data in expenses.json
+
+How to Run:
+
+bash
+Copy code
+python "expense_tracker.py"
+5️⃣ Snake Game (snake_game.py) 🐍
+A classic snake game built with pygame, just like the old mobile game:
+
+Use arrow keys to control the snake
+
+Eat food to grow longer and score points
+
+Avoid hitting the wall or yourself
+
+Requirements:
+
+bash
+Copy code
+pip install pygame
+How to Run:
+
+bash
+Copy code
+python "snake_game.py"
+6️⃣ Tic Tac Toe (tic_tac_toe (1).py) ❌⭕
+A simple two-player Tic Tac Toe game built using Tkinter:
+
+3x3 grid with alternating X and O turns
+
+Detects and announces winner or draw
+
+Clean and minimal GUI interface
+
+How to Run:
+
+bash
+Copy code
+python "tic_tac_toe (1).py"
+💻 Requirements
+Python 3.8 or higher
+
+Tkinter (comes pre-installed with Python)
+
+For Snake Game:
+Install pygame by running:
+
+bash
+Copy code
+pip install pygame
+📦 Setup Instructions
+bash
+Copy code
+# Clone this repository
 git clone https://github.com/your-username/your-repo-name.git
 
-# Navigate to the folder
+# Navigate into the project directory
 cd your-repo-name
 
 # Run any script
 python "calculator.py"
 python "password generator.py"
 python "To Do list.py"
-```
+python "expense_tracker.py"
+📄 License
+This project is licensed under the MIT License.
+You are free to use, modify, and share these projects for personal or educational use.
 
-
----
-
-## 📄 License
-This project is open-source under the **MIT License**.  
-Feel free to modify and use for personal or educational purposes.
+🙌 Contributions
+Feel free to fork this repository, suggest improvements, or add your own projects!
+Pull requests are always welcome.
